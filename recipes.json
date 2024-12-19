@@ -1,0 +1,818 @@
+{
+  "adhered-iron-plate": {
+    "ingredients": {
+      "iron-plate": "3",
+      "rubber": "1"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "15/4"
+    }
+  },
+  "ai-limiter": {
+    "ingredients": {
+      "copper-sheet": "5",
+      "quickwire": "20"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "5"
+    },
+    "alts": ["plastic-ai-limiter"]
+  },
+  "bolted-frame": {
+    "ingredients": {
+      "reinforced-iron-plate": "3/2",
+      "screw": "28"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "5"
+    }
+  },
+  "bolted-iron-plate": {
+    "ingredients": {
+      "iron-plate": "6",
+      "screw": "50/3"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "15"
+    }
+  },
+  "cable": {
+    "ingredients": {
+      "wire": "2"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "30"
+    },
+    "alts": ["coated-cable", "insulated-cable", "quickwire-cable"]
+  },
+  "cast-screw": {
+    "ingredients": {
+      "iron-ingot": "1/4"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "50"
+    }
+  },
+  "caterium-circuit-board": {
+    "ingredients": {
+      "plastic": "10/7",
+      "quickwire": "30/7"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "35/4"
+    }
+  },
+  "caterium-computer": {
+    "ingredients": {
+      "circuit-board": "4",
+      "quickwire": "14",
+      "rubber": "6"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "15/4"
+    }
+  },
+  "caterium-wire": {
+    "ingredients": {
+      "caterium-ingot": "1/8"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "120"
+    }
+  },
+  "cheap-silica": {
+    "ingredients": {
+      "raw-quartz": "3/7",
+      "limestone": "5/7"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "105/2"
+    }
+  },
+  "circuit-board": {
+    "ingredients": {
+      "copper-sheet": "2",
+      "plastic": "4"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "15/2"
+    },
+    "alts": [
+      "electrode-circuit-board",
+      "silicon-circuit-board",
+      "caterium-circuit-board"
+    ]
+  },
+  "coated-cable": {
+    "ingredients": {
+      "wire": "5/9",
+      "heavy-oil-residue": "2/9"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "135/2"
+    }
+  },
+  "coated-iron-plate": {
+    "ingredients": {
+      "iron-ingot": "2/3",
+      "plastic": "2/15"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "75"
+    }
+  },
+  "coke-steel-ingot": {
+    "ingredients": {
+      "iron-ore": "3/4",
+      "coal": "3/4"
+    },
+    "building": {
+      "type": "foundry",
+      "max": "100"
+    }
+  },
+  "compacted-steel-ingot": {
+    "ingredients": {
+      "iron-ore": "3/5",
+      "coal": "3/10"
+    },
+    "building": {
+      "type": "foundry",
+      "max": "75/2"
+    }
+  },
+  "computer": {
+    "ingredients": {
+      "circuit-board": "4",
+      "cable": "8",
+      "plastic": "16"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "5/2"
+    },
+    "alts": ["crystal-computer", "caterium-computer"]
+  },
+  "copper-rotor": {
+    "ingredients": {
+      "copper-sheet": "2",
+      "screw": "52/3"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "45/4"
+    }
+  },
+  "copper-sheet": {
+    "ingredients": {
+      "copper-ingot": "2"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "10"
+    },
+    "alts": ["steamed-copper-sheet"]
+  },
+  "crystal-computer": {
+    "ingredients": {
+      "circuit-board": "3/2",
+      "crystal-oscillator": "1/2"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "10/3"
+    }
+  },
+  "crystal-oscillator": {
+    "ingredients": {
+      "quartz-crystal": "18",
+      "cable": "14",
+      "reinforced-iron-plate": "5/2"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "1"
+    },
+    "alts": ["insulated-crystal-oscillator"]
+  },
+  "diluted-fuel": {
+    "ingredients": {
+      "heavy-oil-residue": "1/2",
+      "water": "1"
+    },
+    "building": {
+      "type": "blender",
+      "max": "100"
+    }
+  },
+  "electric-motor": {
+    "ingredients": {
+      "electromagnetic-control-rod": "1/2",
+      "rotor": "1"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "15/2"
+    }
+  },
+  "electrode-circuit-board": {
+    "ingredients": {
+      "rubber": "6",
+      "petroleum-coke": "9"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "15/2"
+    }
+  },
+  "encased-industrial-beam": {
+    "ingredients": {
+      "steel-beam": "3",
+      "concrete": "6"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "6"
+    },
+    "alts": ["encased-industrial-pipe"]
+  },
+  "encased-industrial-pipe": {
+    "ingredients": {
+      "steel-pipe": "6",
+      "concrete": "5"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "4"
+    }
+  },
+  "fuel": {
+    "ingredients": {
+      "crude-oil": "3/2"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "40"
+    },
+    "alts": ["residual-fuel", "unpackage-fuel", "diluted-fuel"],
+    "by-products": {
+      "polymer-resin": "3/4"
+    }
+  },
+  "fused-quickwire": {
+    "ingredients": {
+      "caterium-ingot": "1/12",
+      "copper-ingot": "5/12"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "90"
+    }
+  },
+  "fused-wire": {
+    "ingredients": {
+      "copper-ingot": "2/15",
+      "caterium-ingot": "1/30"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "90"
+    }
+  },
+  "heavy-encased-frame": {
+    "ingredients": {
+      "modular-frame": "8/3",
+      "encased-industrial-beam": "10/3",
+      "steel-pipe": "12",
+      "concrete": "22/3"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "45/16"
+    }
+  },
+  "heavy-flexible-frame": {
+    "ingredients": {
+      "modular-frame": "5",
+      "rubber": "20",
+      "encased-industrial-beam": "3",
+      "screw": "104"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "15/4"
+    }
+  },
+  "heavy-oil-residue": {
+    "ingredients": {
+      "crude-oil": "3/4"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "40"
+    },
+    "by-products": {
+      "polymer-resin": "1/2"
+    }
+  },
+  "heavy-modular-frame": {
+    "ingredients": {
+      "modular-frame": "5",
+      "steel-pipe": "20",
+      "encased-industrial-beam": "5",
+      "screw": "120"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "2"
+    },
+    "alts": ["heavy-flexible-frame", "heavy-encased-frame"]
+  },
+  "insulated-cable": {
+    "ingredients": {
+      "wire": "9/20",
+      "rubber": "3/10"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "100"
+    }
+  },
+  "insulated-crystal-oscillator": {
+    "ingredients": {
+      "quartz-crystal": "10",
+      "rubber": "7",
+      "ai-limiter": "1"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "15/8"
+    }
+  },
+  "iron-rod": {
+    "ingredients": {
+      "iron-ingot": "1"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "15"
+    },
+    "alts": ["steel-rod"]
+  },
+  "iron-pipe": {
+    "ingredients": {
+      "iron-ingot": "4"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "25"
+    }
+  },
+  "iron-plate": {
+    "ingredients": {
+      "iron-ingot": "3/2"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "20"
+    },
+    "alts": ["coated-iron-plate", "steel-cast-plate"]
+  },
+  "iron-wire": {
+    "ingredients": {
+      "iron-ingot": "5/9"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "45/2"
+    }
+  },
+  "modular-frame": {
+    "ingredients": {
+      "reinforced-iron-plate": "3/2",
+      "iron-rod": "6"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "2"
+    },
+    "alts": ["bolted-frame", "steeled-frame"]
+  },
+  "molded-beam": {
+    "ingredients": {
+      "steel-ingot": "24/9",
+      "concrete": "16/9"
+    },
+    "building": {
+      "type": "foundry",
+      "max": "45"
+    }
+  },
+  "molded-steel-pipe": {
+    "ingredients": {
+      "steel-ingot": "1",
+      "concrete": "3/5"
+    },
+    "building": {
+      "type": "foundry",
+      "max": "50"
+    }
+  },
+  "motor": {
+    "ingredients": {
+      "rotor": "2",
+      "stator": "2"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "5"
+    },
+    "alts": ["rigour-motor", "electric-motor"]
+  },
+  "petroleum-coke": {
+    "ingredients": {
+      "heavy-oil-residue": "1/4"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "120"
+    }
+  },
+  "plastic": {
+    "ingredients": {
+      "crude-oil": "3/2"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "20"
+    },
+    "alts": ["residual-plastic", "recycled-plastic"],
+    "by-products": {
+      "heavy-oil-residue": "1/2"
+    }
+  },
+  "plastic-ai-limiter": {
+    "ingredients": {
+      "quickwire": "15",
+      "plastic": "7/2"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "8"
+    }
+  },
+  "polymer-resin": {
+    "ingredients": {
+      "crude-oil": "6/13"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "130"
+    },
+    "by-products": {
+      "heavy-oil-residue": "2/13"
+    }
+  },
+  "pure-quartz-crystal": {
+    "ingredients": {
+      "raw-quartz": "9/7",
+      "water": "5/7"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "105/2"
+    }
+  },
+  "quartz-crystal": {
+    "ingredients": {
+      "raw-quartz": "5/3"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "45/2"
+    },
+    "alts": ["pure-quartz-crystal"]
+  },
+  "quickwire": {
+    "ingredients": {
+      "caterium-ingot": "1/5"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "60"
+    },
+    "alts": ["fused-quickwire"]
+  },
+  "quickwire-cable": {
+    "ingredients": {
+      "quickwire": "3/11",
+      "rubber": "2/11"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "55/2"
+    }
+  },
+  "quickwire-stator": {
+    "ingredients": {
+      "steel-pipe": "2",
+      "quickwire": "15/2"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "8"
+    }
+  },
+  "recycled-plastic": {
+    "ingredients": {
+      "rubber": "1/2",
+      "fuel": "1/2"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "60"
+    }
+  },
+  "recycled-rubber": {
+    "ingredients": {
+      "plastic": "1/2",
+      "fuel": "1/2"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "60"
+    }
+  },
+  "reinforced-iron-plate": {
+    "ingredients": {
+      "iron-plate": "6",
+      "screw": "12"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "5"
+    },
+    "alts": ["adhered-iron-plate", "bolted-iron-plate", "stitched-iron-plate"]
+  },
+  "residual-fuel": {
+    "ingredients": {
+      "heavy-oil-residue": "3/2"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "40"
+    }
+  },
+  "residual-plastic": {
+    "ingredients": {
+      "polymer-resin": "3",
+      "water": "1"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "20"
+    }
+  },
+  "residual-rubber": {
+    "ingredients": {
+      "polymer-resin": "2",
+      "water": "2"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "20"
+    }
+  },
+  "rigour-motor": {
+    "ingredients": {
+      "rotor": "1/2",
+      "stator": "1/2",
+      "crystal-oscillator": "1/6"
+    },
+    "building": {
+      "type": "manufacturer",
+      "max": "15/2"
+    }
+  },
+  "rotor": {
+    "ingredients": {
+      "iron-rod": "5",
+      "screw": "25"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "4"
+    },
+    "alts": ["copper-rotor", "steel-rotor"]
+  },
+  "rubber": {
+    "ingredients": {
+      "crude-oil": "3/2"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "20"
+    },
+    "alts": ["residual-rubber", "recycled-rubber"],
+    "by-products": {
+      "heavy-oil-residue": "1"
+    }
+  },
+  "screw": {
+    "ingredients": {
+      "iron-rod": "1/4"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "40"
+    },
+    "alts": ["cast-screw", "steel-screw"]
+  },
+  "silica": {
+    "ingredients": {
+      "raw-quartz": "3/5"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "75/2"
+    },
+    "alts": ["cheap-silica"]
+  },
+  "silicon-circuit-board": {
+    "ingredients": {
+      "copper-sheet": "11/5",
+      "silica": "11/5"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "25/2"
+    }
+  },
+  "solid-steel-ingot": {
+    "ingredients": {
+      "iron-ingot": "2/3",
+      "coal": "2/3"
+    },
+    "building": {
+      "type": "foundry",
+      "max": "60"
+    }
+  },
+  "stator": {
+    "ingredients": {
+      "steel-pipe": "3",
+      "wire": "8"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "5"
+    },
+    "alts": ["quickwire-stator"]
+  },
+  "steamed-copper-sheet": {
+    "ingredients": {
+      "copper-ingot": "1",
+      "water": "1"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "45/2"
+    }
+  },
+  "steel-beam": {
+    "ingredients": {
+      "steel-ingot": "4"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "15"
+    },
+    "alts": ["molded-beam"]
+  },
+  "steel-cast-plate": {
+    "ingredients": {
+      "iron-ingot": "1/3",
+      "steel-ingot": "1/3"
+    },
+    "building": {
+      "type": "foundry",
+      "max": "45"
+    }
+  },
+  "steel-ingot": {
+    "ingredients": {
+      "iron-ore": "1",
+      "coal": "1"
+    },
+    "building": {
+      "type": "foundry",
+      "max": "45"
+    },
+    "alts": ["coke-steel-ingot", "compacted-steel-ingot", "solid-steel-ingot"]
+  },
+  "steel-rod": {
+    "ingredients": {
+      "steel-ingot": "1/4"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "48"
+    }
+  },
+  "steel-pipe": {
+    "ingredients": {
+      "steel-ingot": "3/2"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "20"
+    },
+    "alts": ["molded-steel-pipe", "iron-pipe"]
+  },
+  "steel-rotor": {
+    "ingredients": {
+      "steel-pipe": "2",
+      "wire": "6"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "5"
+    }
+  },
+  "steel-screw": {
+    "ingredients": {
+      "steel-beam": "1/52"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "260"
+    }
+  },
+  "steeled-frame": {
+    "ingredients": {
+      "reinforced-iron-plate": "2/3",
+      "steel-pipe": "10/3"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "3"
+    }
+  },
+  "stitched-iron-plate": {
+    "ingredients": {
+      "iron-plate": "10/3",
+      "wire": "20/3"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "45/8"
+    }
+  },
+  "unpackage-fuel": {
+    "ingredients": {
+      "packaged-fuel": "1"
+    },
+    "building": {
+      "type": "packager",
+      "max": "60"
+    },
+    "by-products": {
+      "empty-canister": "1"
+    }
+  },
+  "unpackage-heavy-oil-residue": {
+    "ingredients": {
+      "packaged-heavy-oil-residue": "1"
+    },
+    "building": {
+      "type": "packager",
+      "max": "20"
+    },
+    "by-products": {
+      "empty-canister": "1"
+    }
+  },
+  "wire": {
+    "ingredients": {
+      "copper-ingot": "1/2"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "30"
+    },
+    "alts": ["fused-wire", "iron-wire", "caterium-wire"]
+  }
+}
