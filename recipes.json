@@ -166,6 +166,16 @@
     },
     "alts": ["crystal-computer", "caterium-computer"]
   },
+  "concrete": {
+    "ingredients": {
+      "limestone": "3"
+    },
+    "building": {
+      "type": "constructor",
+      "max": "15"
+    },
+    "alts": ["rubber-concrete", "wet-concrete", "fine-concrete"]
+  },
   "copper-rotor": {
     "ingredients": {
       "copper-sheet": "2",
@@ -257,6 +267,16 @@
     "building": {
       "type": "assembler",
       "max": "4"
+    }
+  },
+  "fine-concrete": {
+    "ingredients": {
+      "silica": "3/10",
+      "limestone": "6/5"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "50"
     }
   },
   "fuel": {
@@ -631,6 +651,16 @@
       "heavy-oil-residue": "1"
     }
   },
+  "rubber-concrete": {
+    "ingredients": {
+      "limestone": "10/9",
+      "rubber": "2/9"
+    },
+    "building": {
+      "type": "assembler",
+      "max": "90"
+    }
+  },
   "screw": {
     "ingredients": {
       "iron-rod": "1/4"
@@ -803,6 +833,16 @@
     },
     "by-products": {
       "empty-canister": "1"
+    }
+  },
+  "wet-concrete": {
+    "ingredients": {
+      "limestone": "3/2",
+      "water": "5/4"
+    },
+    "building": {
+      "type": "refinery",
+      "max": "80"
     }
   },
   "wire": {
